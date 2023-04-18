@@ -1,4 +1,6 @@
-
+h2{
+    text-align: center;
+}
 .container-row{
     display: flex ;
     flex-direction: row;
