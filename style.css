@@ -1,17 +1,18 @@
 h2{
     text-align: center;
+    color: purple;
 }
 .container-row{
     display: flex ;
     flex-direction: row;
-background-color: #f9eac3;
+background-color: #0213ff;
 padding: 16px;
 height: 500px;
 }
 .container-column{
     display: flex;
     flex-direction: column;
-background-color: #f9eac3;
+background-color: #0213ff;
 padding: 16px;
 height: 500px;
 
@@ -19,18 +20,111 @@ height: 500px;
 .container-rowreverse{
     display: flex;
     flex-direction: row-reverse;
-background-color: #f9eac3;
+background-color: #0213ff;
 padding: 16px;
 height: 500px;
 }
 .container-columnreverse{
     display: flex;
     flex-direction: column-reverse;
-background-color: #f9eac3;
+background-color: #0213ff;
 padding: 16px;
 height: 500px;
 }
 
+.container-justify-center{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-flex-start{
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-flex-end{
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-end;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-justify-space-between{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-justify-space-evenly{
+display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-justify-space-around{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-alignitems-center{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-alignitems-center-justify-content{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+.container-alignitems-center-justify-top{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+}
+
+/* .container-alignitems-center-justify-stretch{
+    display: flex ;
+    flex-direction: row;
+    align-content: stretch;
+background-color: #0213ff;
+padding: 16px;
+height: 500px;
+} */
 
 .bloco-1{
     background-color: rgb(240, 12, 12);
@@ -39,7 +133,7 @@ height: 500px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier new', Courier, monospace;
-    border-radius: 16px ;
+    border-radius: 160px ;
 
 }
 .bloco-2{
@@ -49,18 +143,17 @@ height: 500px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier new', 'Courier New', Courier, monospace;
-    border-radius: 16px ;
+    border-radius: 160px ;
 
 
 }
 .bloco-3{
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(65, 163, 0);
     height: 150px;
     width: 150px;
     text-align: center;
     font-size: 40px;
     font-family: 'Courier new', 'Courier New', Courier, monospace;
-    border-radius: 16px ;
+    border-radius: 160px ;
 
-
-}    
+}
