@@ -117,6 +117,17 @@ padding: 16px;
 height: 500px;
 }
 
+.container-alignitems-stretch {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    /* indiferente */
+    background-color: #0213ff;
+    padding: 16px;
+    height: 500px;
+}
+
 /* .container-alignitems-center-justify-stretch{
     display: flex ;
     flex-direction: row;
