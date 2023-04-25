@@ -189,6 +189,91 @@ h2 {
     height: 500px;
 }
 
+.container-flexflow-align-content-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-align-content-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: top;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-align-content-space-evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-align-content-space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-align-content-space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-align-content-flex-start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+.container-flexflow-align-content-flex-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: center;
+    background-color: #0213ff;
+    flex-wrap: wrap;
+    padding: 16px;
+    height: 500px;
+}
+
+
 
 .bloco-1 {
     background-color: rgb(240, 12, 12);
