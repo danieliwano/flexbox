@@ -9,12 +9,30 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+<h1 class="titulo-pagina">Propriedades Flexbox - Parte 1: container</h1>
+<!-- <hr> -->
+
+<nav class="menu-navegacao">
+    <ul>
+      <li class="link-menu-principal"><a href="#display">display</a></li>
+      <li class="link-menu-principal"><a href="#flex-direction">flex-direction</a></li>
+      <li class="link-menu-principal"><a href="#justify-content">justify-content</a></li>
+      <li class="link-menu-principal"><a href="#align-items">align-items</a></li>
+      <li class="link-menu-principal"><a href="#flex-wrap">flex-wrap</a></li>
+      <li class="link-menu-principal"><a href="#flex-flow">flex-flow</a></li>
+      <li class="link-menu-principal"><a href="#align-content">align-content</a></li>
+    </ul>
+  </nav>
+
+<!-- <hr> -->
+
 
 <body>
-    <h1>Flex-direction define a direção do eixo principal. Exemplos abaixo:</h1>
-    <h2>Container Row</h2>
+    <h1 class="nome-da-propriedade"> 1- display: ativa o flexbox / identifica a tag que será o container do flexbox</h1>
+    <h2>Flex-direction: row</h2>
 
-    
+    <h1 class="nome-da-propriedade" id="flex-direction"> 2- flex-direction - define a direção do eixo principal.
+        Exemplos:</h1>
     <main class="container-row">
         <div class="bloco-1">pare</div>
         <div class="bloco-2">atenção</div>
@@ -42,6 +60,8 @@
         <div class="bloco-3">siga</div>
     </main>
     
+    <h1 class="nome-da-propriedade" id="justify-content">3- justify-content: serve para alinhar os objetos no eixo principal
+    </h1>
     <h2>Container Row Justify Center</h2>
     <main class="container-justify-center">
         <div class="bloco-1">pare</div>
@@ -84,6 +104,8 @@
         <div class="bloco-3">siga</div>
     </main>
 
+    <h1 class="nome-da-propriedade" id="align-items">4- align-items - alinhar os elementos no eixo perpendicular/secundário
+    </h1>
     <h2>Container Row alinhados no centro pelos eixo perpendiculares/secundário</h2>
     <main class="container-alignitems-center">
         <div class="bloco-1">pare</div>
@@ -120,7 +142,8 @@ Container
         <div class="bloco-3-fontes-diferentes"> siga </div>
     </main>
 
-    <h1> Flex wrap</h1>
+    <h1 class="nome-da-propriedade" id="flex-wrap">5-flex-wrap - serve para decidir se os elementos irão para a linha de baixo quando chegar ao final do container ou se eles ficarão espremidos
+    </h1>
     <!-- serve para decidir se os elementos irão para a linha de baixo quando chegar ao final do conteiner , ou se eles ficarão espremidos. -->
     
     <h2>Container Row flex no wrap</h2>
@@ -171,7 +194,8 @@ Container
         <div class="bloco-3">12</div>
     </main>
 
-    <h1> Classe Flex Flow no Wrap</h1>
+    <h1 class="nome-da-propriedade-shorthand" id="flex-flow">6 - flex-flow (SHORTHAND) - atalho para as propriedades flex-direction + flex-wrap
+    </h1>
     <!-- Flex-flow (shorthand) atalho para as propriedades flex-direction + flex-wrap - atalhos de várias funções enxugadas em uma função.-->
     
     <h2>Container flex flow (shorthand) no wrap</h2>
@@ -190,6 +214,8 @@ Container
         <div class="bloco-3">12</div>
     </main>
 
+    <h1 class="nome-da-propriedade" id="align-content">7 - align-content: para quando existe o flex-wrap (pu seja, quebra de linha) e nós queremos alinhar os elementos no eixo perpendicular/secundário 
+    </h1>
     <h2>Container flex align content center </h2>
     <main class="container-flexflow-align-content-center">
         <div class="bloco-1">1</div>

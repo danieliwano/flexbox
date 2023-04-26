@@ -273,7 +273,74 @@ h2 {
     height: 500px;
 }
 
+hr {
+    margin: 15px;
+}
 
+.titulo-pagina {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'arial', sans-serif;
+    color: rgb(109, 109, 255);
+    margin: 10px;
+}
+
+.menu-navegacao {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: paleturquoise ; 
+  height: 80px; 
+}
+
+
+.menu-navegacao ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.menu-navegacao li {
+  padding: 20px;
+  font-family: 'arial', sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;   
+  
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-navegacao a:hover{
+    background-color: yellow;
+}
+
+.nome-da-propriedade {
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: 'arial', sans-serif;
+    color: rgb(10, 14, 255);
+    padding: 20px;
+}
+
+.nome-da-propriedade-shorthand {
+    font-size: 2em;
+    font-weight: 500px;
+    font-family: 'arial', sans-serif;
+    color: rgb(10, 14, 255);
+    padding: 20px;
+}
+
+.valor-da-propriedade {
+    font-size: 1,5em;
+    font-weight: 400px;
+    font-family: 'arial', sans-serif;
+    color: black;
+    padding: 30px;
+}
 
 .bloco-1 {
     background-color: rgb(240, 12, 12);
